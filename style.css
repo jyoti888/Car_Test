@@ -1,0 +1,54 @@
+body{
+ margin: 0;
+ background-image: url("cc.jpeg");
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+
+.container{
+  
+
+}
+.nav{
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color:grey;
+  display: flex;
+  color: black;
+  align-items: center;
+  justify-content: space-between; 
+}
+
+.logo{
+  background-color:grey;
+	height: 80px;
+	width: 80px;
+}
+
+.slogan{
+  font-size: 20px;
+  margin-left: 70px; 
+  text-align: center;
+}
+
+.link{ 
+ float:right;
+ color:white;
+ display:flex;
+ justify-content: space-around;
+
+ }
+.link a{
+  font-size: 20px;
+  color: white;
+  margin-left:20px;
+  margin-right:10px; 
+  text-decoration:none;
+}
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
